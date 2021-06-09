@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68738112671829300DB7862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68738102671829300DB7862 /* AppDelegate.swift */; };
+		C68738132671829300DB7862 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68738122671829300DB7862 /* SceneDelegate.swift */; };
+		C68738152671829300DB7862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68738142671829300DB7862 /* ViewController.swift */; };
+		C68738182671829300DB7862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68738162671829300DB7862 /* Main.storyboard */; };
+		C687381A2671829400DB7862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68738192671829400DB7862 /* Assets.xcassets */; };
+		C687381D2671829400DB7862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C687381B2671829400DB7862 /* LaunchScreen.storyboard */; };
+		C68738282671829400DB7862 /* REposition_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68738272671829400DB7862 /* REposition_ButtonTests.swift */; };
+		C68738332671829400DB7862 /* REposition_ButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68738322671829400DB7862 /* REposition_ButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C68738242671829400DB7862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C68738052671829200DB7862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C687380C2671829200DB7862;
+			remoteInfo = "REposition Button";
+		};
+		C687382F2671829400DB7862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C68738052671829200DB7862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C687380C2671829200DB7862;
+			remoteInfo = "REposition Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C687380D2671829200DB7862 /* REposition Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REposition Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68738102671829300DB7862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C68738122671829300DB7862 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C68738142671829300DB7862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C68738172671829300DB7862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C68738192671829400DB7862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C687381C2671829400DB7862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C687381E2671829400DB7862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68738232671829400DB7862 /* REposition ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REposition ButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68738272671829400DB7862 /* REposition_ButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REposition_ButtonTests.swift; sourceTree = "<group>"; };
+		C68738292671829400DB7862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C687382E2671829400DB7862 /* REposition ButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REposition ButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68738322671829400DB7862 /* REposition_ButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REposition_ButtonUITests.swift; sourceTree = "<group>"; };
+		C68738342671829400DB7862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C687380A2671829200DB7862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68738202671829400DB7862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C687382B2671829400DB7862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C68738042671829200DB7862 = {
+			isa = PBXGroup;
+			children = (
+				C687380F2671829200DB7862 /* REposition Button */,
+				C68738262671829400DB7862 /* REposition ButtonTests */,
+				C68738312671829400DB7862 /* REposition ButtonUITests */,
+				C687380E2671829200DB7862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C687380E2671829200DB7862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C687380D2671829200DB7862 /* REposition Button.app */,
+				C68738232671829400DB7862 /* REposition ButtonTests.xctest */,
+				C687382E2671829400DB7862 /* REposition ButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C687380F2671829200DB7862 /* REposition Button */ = {
+			isa = PBXGroup;
+			children = (
+				C68738102671829300DB7862 /* AppDelegate.swift */,
+				C68738122671829300DB7862 /* SceneDelegate.swift */,
+				C68738142671829300DB7862 /* ViewController.swift */,
+				C68738162671829300DB7862 /* Main.storyboard */,
+				C68738192671829400DB7862 /* Assets.xcassets */,
+				C687381B2671829400DB7862 /* LaunchScreen.storyboard */,
+				C687381E2671829400DB7862 /* Info.plist */,
+			);
+			path = "REposition Button";
+			sourceTree = "<group>";
+		};
+		C68738262671829400DB7862 /* REposition ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				C68738272671829400DB7862 /* REposition_ButtonTests.swift */,
+				C68738292671829400DB7862 /* Info.plist */,
+			);
+			path = "REposition ButtonTests";
+			sourceTree = "<group>";
+		};
+		C68738312671829400DB7862 /* REposition ButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C68738322671829400DB7862 /* REposition_ButtonUITests.swift */,
+				C68738342671829400DB7862 /* Info.plist */,
+			);
+			path = "REposition ButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C687380C2671829200DB7862 /* REposition Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68738372671829400DB7862 /* Build configuration list for PBXNativeTarget "REposition Button" */;
+			buildPhases = (
+				C68738092671829200DB7862 /* Sources */,
+				C687380A2671829200DB7862 /* Frameworks */,
+				C687380B2671829200DB7862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "REposition Button";
+			productName = "REposition Button";
+			productReference = C687380D2671829200DB7862 /* REposition Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C68738222671829400DB7862 /* REposition ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C687383A2671829400DB7862 /* Build configuration list for PBXNativeTarget "REposition ButtonTests" */;
+			buildPhases = (
+				C687381F2671829400DB7862 /* Sources */,
+				C68738202671829400DB7862 /* Frameworks */,
+				C68738212671829400DB7862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C68738252671829400DB7862 /* PBXTargetDependency */,
+			);
+			name = "REposition ButtonTests";
+			productName = "REposition ButtonTests";
+			productReference = C68738232671829400DB7862 /* REposition ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C687382D2671829400DB7862 /* REposition ButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C687383D2671829400DB7862 /* Build configuration list for PBXNativeTarget "REposition ButtonUITests" */;
+			buildPhases = (
+				C687382A2671829400DB7862 /* Sources */,
+				C687382B2671829400DB7862 /* Frameworks */,
+				C687382C2671829400DB7862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C68738302671829400DB7862 /* PBXTargetDependency */,
+			);
+			name = "REposition ButtonUITests";
+			productName = "REposition ButtonUITests";
+			productReference = C687382E2671829400DB7862 /* REposition ButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68738052671829200DB7862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C687380C2671829200DB7862 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C68738222671829400DB7862 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C687380C2671829200DB7862;
+					};
+					C687382D2671829400DB7862 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C687380C2671829200DB7862;
+					};
+				};
+			};
+			buildConfigurationList = C68738082671829200DB7862 /* Build configuration list for PBXProject "REposition Button" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C68738042671829200DB7862;
+			productRefGroup = C687380E2671829200DB7862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C687380C2671829200DB7862 /* REposition Button */,
+				C68738222671829400DB7862 /* REposition ButtonTests */,
+				C687382D2671829400DB7862 /* REposition ButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C687380B2671829200DB7862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C687381D2671829400DB7862 /* LaunchScreen.storyboard in Resources */,
+				C687381A2671829400DB7862 /* Assets.xcassets in Resources */,
+				C68738182671829300DB7862 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68738212671829400DB7862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C687382C2671829400DB7862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68738092671829200DB7862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68738152671829300DB7862 /* ViewController.swift in Sources */,
+				C68738112671829300DB7862 /* AppDelegate.swift in Sources */,
+				C68738132671829300DB7862 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C687381F2671829400DB7862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68738282671829400DB7862 /* REposition_ButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C687382A2671829400DB7862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68738332671829400DB7862 /* REposition_ButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C68738252671829400DB7862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C687380C2671829200DB7862 /* REposition Button */;
+			targetProxy = C68738242671829400DB7862 /* PBXContainerItemProxy */;
+		};
+		C68738302671829400DB7862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C687380C2671829200DB7862 /* REposition Button */;
+			targetProxy = C687382F2671829400DB7862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C68738162671829300DB7862 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68738172671829300DB7862 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C687381B2671829400DB7862 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C687381C2671829400DB7862 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C68738352671829400DB7862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C68738362671829400DB7862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C68738382671829400DB7862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REposition Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.REposition-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C68738392671829400DB7862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REposition Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.REposition-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C687383B2671829400DB7862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REposition ButtonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.REposition-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REposition Button.app/REposition Button";
+			};
+			name = Debug;
+		};
+		C687383C2671829400DB7862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REposition ButtonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.REposition-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REposition Button.app/REposition Button";
+			};
+			name = Release;
+		};
+		C687383E2671829400DB7862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REposition ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.REposition-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "REposition Button";
+			};
+			name = Debug;
+		};
+		C687383F2671829400DB7862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REposition ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.REposition-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "REposition Button";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68738082671829200DB7862 /* Build configuration list for PBXProject "REposition Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68738352671829400DB7862 /* Debug */,
+				C68738362671829400DB7862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68738372671829400DB7862 /* Build configuration list for PBXNativeTarget "REposition Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68738382671829400DB7862 /* Debug */,
+				C68738392671829400DB7862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C687383A2671829400DB7862 /* Build configuration list for PBXNativeTarget "REposition ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C687383B2671829400DB7862 /* Debug */,
+				C687383C2671829400DB7862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C687383D2671829400DB7862 /* Build configuration list for PBXNativeTarget "REposition ButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C687383E2671829400DB7862 /* Debug */,
+				C687383F2671829400DB7862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68738052671829200DB7862 /* Project object */;
+}
